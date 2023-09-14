@@ -1,7 +1,9 @@
 // stacks       stored all the premitive types
+
 let a = 2
 let b = a
 a = a + 2
+
 // console.log([a,b]);
 
 // heap         stored all the non-premitive types
