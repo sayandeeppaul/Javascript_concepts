@@ -42,12 +42,13 @@ let myArr4=[{},{},{}]
 // Value => Sayandeep, 20, 5.10
 // lets supp we want an array from keys============>[name,age,height]
 // lets supp we want an array from values============>['sayandeep',20,5.10]
-console.log(Array.from
-    (
-        {
-        name:"sayandeep",
-        age:20,
-        height:5.10
-        }
-    )
-)
+
+// console.log(Array.from
+//     (
+//         {
+//         name:"sayandeep",
+//         age:20,
+//         height:5.10
+//         }
+//     )
+// )
