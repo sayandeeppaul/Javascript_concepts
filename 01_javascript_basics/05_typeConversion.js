@@ -5,7 +5,7 @@ let b = Number(a)
 let c=true
 let d = Number(c)
 
-let score = "33abc"         //string
+let score = "33abc"                         //string
 // console.log(typeof score);
 
 let valueInNumber = Number(score)           // number
