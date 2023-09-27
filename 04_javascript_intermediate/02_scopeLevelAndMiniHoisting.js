@@ -23,5 +23,3 @@ console.log(addTwoValue(2,3))           // it'll show an error because the  addT
 const addTwoValue = function (num1,num2) {
     return num1+num2
 }
-
-
