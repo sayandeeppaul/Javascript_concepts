@@ -150,10 +150,7 @@
 // }
 
 
-
-
-// **************************************** for each loop  **************************************************
-
+// **************************************** for each loop **************************************************
 
 //                            0    1      2      3      4    5
 // const codingLanguages = ["JS","CPP","Java","Python","C","Ruby"]
@@ -186,3 +183,11 @@
 // myCoding.forEach( (item)=>{
 //     console.log(item.extension)
 // } )
+
+// for each loop doesn't support return
+
+// const ex = myCoding.forEach( (item)=>{
+//     return item.extension
+// } )
+
+// console.log(ex);
