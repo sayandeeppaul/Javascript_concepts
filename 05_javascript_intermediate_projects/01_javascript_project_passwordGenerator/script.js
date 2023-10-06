@@ -12,7 +12,7 @@ password.addEventListener("input",()=>{
     }
     if(password.value.length<4){
         strength.innerText="Weak"
-        strength.style.color="red"
+        strength.style.color="red" 
         password.style.border="2px solid red"
         if (password.value.length===0) {
             password.style.border="none"
