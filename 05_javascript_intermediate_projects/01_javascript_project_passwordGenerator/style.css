@@ -35,6 +35,7 @@ body{
 .header > h1{
     font-size: 3rem;
     font-family: "Poppins";
+    text-align: center;
 }
 
 .input-box{
@@ -73,3 +74,28 @@ button{
     font-weight: bold;
     display: none;
 } 
+
+.generate-and-copy-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+
+.generate > button{
+    padding: 0.5rem 0.5rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.7rem;
+}
+
+.copy > button{
+    padding: 0.5rem 0.5rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0.7rem;
+}
